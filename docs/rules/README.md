@@ -22,4 +22,4 @@ Web-oriented rules are based on :
 We try to apply these rules to each supported language, so we maintain a matrix to follow current development.
 Here are the selected rules currently used on creedengo
 
-- [Rules support matrix by techno](/RULES.md)
+- [Rules support matrix by techno](/doc/modules/ROOT/pages/rules.adoc)

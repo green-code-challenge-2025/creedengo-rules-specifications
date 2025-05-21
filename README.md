@@ -3,11 +3,9 @@
 [![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)
 [![Contributor Covenant](https://img.shields.io/badge/Contributor%20Covenant-2.1-4baaaa.svg)](https://green-code-challenge-2025.github.io/green-code-initiative-docs/creedengo-common/code-of-conduct.html)
 
-## Creedengo rules specification repository
-
 This project contains the specifications of all Creedengo rules, for all languages.
 
-### Structure
+## Structure
 
 Rules are organized by folder based on their ID in the [root rules folder](src/main/rules).
 Each of these folders contains a file with the metadata of the rule, and description by language.
@@ -36,13 +34,12 @@ src/main/rules
 
 To specify metadata for a given language (for example deprecate a rule only for a single language), it is possible to
 create a json file in the language folder, and this will be merged with the common file during build. The keys in the
-specific file have priority and it is possible to add new ones but not to delete them from the global one.
+specific file have priority, and it is possible to add new ones but not to delete them from the global one.
 
-### Description language
+## Description language
 
-The description of the rules uses the ASCIIDOC format (
-with [Markdown compatibility](https://docs.asciidoctor.org/asciidoc/latest/syntax-quick-reference/#markdown-compatibility))
-in order to allow the inclusion of other pages (this feature is not available in standard with Markdown).
+The description of the rules uses the ASCIIDOC format (with [Markdown compatibility](https://docs.asciidoctor.org/asciidoc/latest/syntax-quick-reference/#markdown-compatibility))
+in order to allow the inclusion of other pages (this feature is not available with Markdown).
 
 See:
 

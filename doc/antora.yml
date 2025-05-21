@@ -1,0 +1,7 @@
+name: creedengo-rules-specifications # the slug used in URL
+title: Creedengo rules # prettier version for humans
+version: 2.2.2 # this module does NOT have versions
+nav:
+  - modules/ROOT/nav-top.adoc
+  - modules/contribution/nav.adoc
+  - modules/ROOT/nav-bottom.adoc

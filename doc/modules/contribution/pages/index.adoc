@@ -1,0 +1,5 @@
+= Contribution guides
+:navtitle: Contribution
+// TODO make this a quick-access page, with easy to see tiles.
+
+include::partial$contrib-guides-list.adoc[]

@@ -1,0 +1,5 @@
+* xref:index.adoc[]
++
+--
+include::partial$contrib-guides-list.adoc[]
+--

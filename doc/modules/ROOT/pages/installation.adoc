@@ -1,0 +1,8 @@
+= Install notes
+
+== Common installation notes / requirements
+
+Please read xref:creedengo:dev:howto.adoc[].
+Please follow the specific guides below for additional information on installing the desired plugins.
+
+// FIXME no specific guide below

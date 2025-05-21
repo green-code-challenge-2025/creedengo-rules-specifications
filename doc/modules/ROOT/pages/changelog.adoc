@@ -1,0 +1,442 @@
+= Changelog
+
+All notable changes to this project will be documented in this file.
+
+The format is based on https://keepachangelog.com/en/1.0.0/[Keep a Changelog],
+and this project adheres to https://semver.org/spec/v2.0.0.html[Semantic Versioning].
+
+== [Unreleased]
+
+=== Added
+
+=== Changed
+
+- GCI69 Java : calls to hasMoreElements() and nextElement() methods from java.util.Enumeration interface aren't flagged anymore when called in a for loop
+
+- Correction of various typos in rules documentations
+
+=== Deleted
+
+== [2.2.2] - 2025-03-13
+
+=== Added
+
+- link:{gci-github-organization}/creedengo-rules-specifications/pull/333[#333] Add JS variant of rule GCI505 - Idleness: Keep Screen On (addFlags)
+
+=== Changed
+
+- link:{gci-github-organization}/creedengo-rules-specifications/pull/320[#320] Doc improvement : some method calls are legitimate in a for loop expression.
+
+== [2.2.1] - 2025-01-27
+
+=== Changed
+
+- Move JavaScript rule GCI36 to appropriate folder
+
+== [2.2.0] - 2025-01-26
+
+=== Added
+
+- GCI90 C#: Use `Cast` instead of `Select` to cast.
+- link:{gci-github-organization}/creedengo-rules-specifications/pull/361[#361] correction of GCI72 Java rule example
+- link:{gci-github-organization}/creedengo-rules-specifications/pull/370[#370] Add new JS rule GCI36 - Avoid autoplay for videos and audio content
+
+== [2.1.0] - 2025-01-03
+
+=== Added
+
+- Add new Java rule GCI82 - Make non reassigned variables constants
+
+=== Changed
+
+- update developers list + update maven plugins versions
+- correction of RULES.md file (renaming ECxx rules to GCIxx rules + reformating arrays)
+
+== [2.0.0] - 2024-12-10
+
+=== Changed
+
+- First official release of creedengo-rules-specifications component (renaming ECxx rule ids to GCIxx rule ids, refactoring)
+
+== [1.6.5] - 2024-10-18
+
+=== Changed
+
+- link:{gci-github-organization}/creedengo-rules-specifications/issues/208[#208] Improves build process with https://maven.apache.org/wrapper/[Maven Wrapper] and simplifies release management (now, just need to do a build on a tag checkout).
+
+  If you have difficulties on some IDEs (like IntelliJ IDEA), you can follow the procedure: https://github.com/qoomon/maven-git-versioning-extension?tab=readme-ov-file#intellij---multi-modules-projects[configuration for Multi Modules Project]
+
+== [1.6.4] - 2024-10-04
+
+=== Deleted
+
+- deletion of deprecated python EC34 and EC69 rules
+
+== [1.6.3] - 2024-07-26
+
+=== Added
+
+- link:{gci-github-organization}/creedengo-rules-specifications/issues/308[#308] Implementing EC24 in Java
+
+== [1.6.2] - 2024-07-17
+
+=== Added
+
+- link:{gci-github-organization}/creedengo-csharp/pull/54[C# #54] [EC92] [C#] Use string.Length instead of comparison with empty string
+- link:{gci-github-organization}/creedengo-csharp/issues/61[C# #61] [EC91] [C#] Use Where before OrderBy
+
+=== Changed
+
+- link:{gci-github-organization}/creedengo-rules-specifications/pull/282[Python #282] Depreciate unrelevant EC69 rule for Python
+
+=== Deleted
+
+- link:{gci-github-organization}/creedengo-rules-specifications/pull/282[Python #282] Remove deprecated Python rule EC66
+
+== [1.6.1] - 2024-06-13
+
+=== Added
+
+- link:{gci-github-organization}/creedengo-csharp/pull/66[C# #66] [EC93] [C#] Return Task directly
+- link:{gci-github-organization}/creedengo-rules-specifications/pull/323[JAVA #323] [EC94] [Java] Use orElseGet instead of orElse
+
+== [1.6.0] - 2024-06-03
+
+=== Added
+
+- link:{gci-github-organization}/creedengo-rules-specifications/issues/293[#293] [EC513] Swift port
+- link:{gci-github-organization}/creedengo-rules-specifications/issues/310[#310] EC515 Swift port
+- link:{gci-github-organization}/creedengo-rules-specifications/issues/306[#306] Swift port of rule EC514
+- link:{gci-github-organization}/creedengo-rules-specifications/pull/315[#315] Add rule EC530 for javascript
+- link:{gci-github-organization}/creedengo-rules-specifications/pull/321[#321] Add rule EC522 for javascript (avoid brightness override)
+- link:{gci-github-organization}/creedengo-python/issues/26[Python #26] [EC89] [Python] Avoid unlimited cache
+
+=== Changed
+
+- link:{gci-github-organization}/creedengo-rules-specifications/issues/318[#318] Implement the rule EC523 for React Native
+
+=== Deleted
+
+- link:{gci-github-organization}/creedengo-rules-specifications/issues/318[#318] Merge the rule EC8 with EC523
+
+== [1.5.4] - 2024-05-24
+
+=== Added
+
+- link:{gci-github-organization}/creedengo-rules-specifications/pull/298[#298] Add HTML rule EC36 (Avoid autoplay for videos and audio content)
+- link:{gci-github-organization}/creedengo-csharp/issues/36[C# #36] [EC86] [C#] GC.Collect should not be called
+- link:{gci-github-organization}/creedengo-csharp/issues/42[C# #42] [EC87] [C#] Use collection indexer
+- link:{gci-github-organization}/creedengo-csharp/issues/44[C# #44] [EC88] [C#] Dispose resource asynchronously
+
+=== Changed
+
+- link:{gci-github-organization}/creedengo-rules-specifications/pull/302[mobile #302] Big cleanup / sorting of mobile related rules
+- link:{gci-github-organization}/creedengo-rules-specifications/pull/304[C# #304] [EC81] [C#] Fix type in json spec to allow import into Sonarqube
+
+== [1.5.3] - 2024-05-03
+
+=== Changed
+
+- link:{gci-github-organization}/creedengo-php/issues/23[PHP #23] Deprecation of EC22 rule for PHP (waiting for measurement) - correction
+
+== [1.5.2] - 2024-05-02
+
+=== Changed
+
+- link:{gci-github-organization}/creedengo-php/issues/23[PHP #23] Deprecation of EC22 rule for PHP (waiting for measurement)
+
+== [1.5.1] - 2024-04-29
+
+=== Added
+
+- Swift rules cleanup and updates (removed duplicated rules, added [EC602])
+- link:{gci-github-organization}/creedengo-csharp/issues/18[C# #18] [EC81] [C#] Specify struct layout
+- link:{gci-github-organization}/creedengo-rules-specifications/pull/285[C# #285] [EC82] [C#] Variable can be made constant
+- link:{gci-github-organization}/creedengo-rules-specifications/issues/286[C# #286] [EC83] [C#] Replace Enum ToString() with nameof
+- link:{gci-github-organization}/creedengo-csharp/issues/27[C# #27] [EC84] [C#] Avoid async void methods
+- link:{gci-github-organization}/creedengo-csharp/issues/34[C# #34] [EC85] [C#] Make type sealed
+
+== [1.5.0] - 2024-02-02
+
+=== Added
+
+- link:{gci-github-organization}/creedengo-rules-specifications/pull/269[#269] Add new Javascript rule EC31 (Prefer lighter formats for image files)
+
+=== Changed
+
+- Refuse rule proposition link:{gci-github-organization}/creedengo-rules-specifications/pull/138[Avoid returning a JPA Entity in a RestController] for Java because of lack of arguments and measures
+- Refuse rule proposition link:{gci-github-organization}/creedengo-rules-specifications/pull/7[Avoid use of static in interface] for Java because of lack of arguments and measures
+- update RULES.md : close 2 old PRs and add to rework rules array
+
+=== Deleted
+
+- link:{gci-github-organization}/creedengo-rules-specifications/pull/272[#272] Remove deprecated java rules EC4, EC53, EC63 and EC75
+
+== [1.4.7] - 2024-01-11
+
+=== Changed
+
+- link:{gci-github-organization}/creedengo-rules-specifications/issues/123[#123] Rule EC7 not implementable neither Java nor PHP
+- Depreciation of rule EC34 for Python and PHP to replace it by EC35
+
+== [1.4.6] - 2023-12-30
+
+=== Changed
+
+- link:{gci-github-organization}/creedengo-rules-specifications/issues/266[#266] enable automatic publish of ecocode-rules-specifications to Maven Central
+
+== [1.4.5] - 2023-12-30
+
+=== Deleted
+
+- link:{gci-github-organization}/creedengo-rules-specifications/issues/182[#182] delete java plugin sources because it was moved to new repository `ecoCode-java`
+
+== [1.4.4] - 2023-12-29
+
+=== Changed
+
+- RULES.md upgrades
+- technical upgrade for maven central publication
+
+=== Deleted
+
+- link:{gci-github-organization}/creedengo-rules-specifications/issues/182[#182] disable java plugin beacasue moved to new repository `ecoCode-java`
+
+== [1.4.3] - 2023-12-19
+
+=== Added
+
+- link:{gci-github-organization}/creedengo-rules-specifications/issues/248[#248] EC2 : Add tests to prove there is no problem with 'instanceof' operator
+
+=== Changed
+
+- link:{gci-github-organization}/creedengo-rules-specifications/issues/123[#123] Complete resources for EC7 rule for Python language
+- Update ecocode-rules-specifications to 0.0.10
+
+=== Deleted
+
+- link:{gci-github-organization}/creedengo-python/issues/4[#4] Deprecate rule EC66 for Python because not applicable (see details inside issue)
+- link:{gci-github-organization}/creedengo-rules-specifications/issues/240[#240] Deprecate rule EC53 for Java because of no good arguments and not enough green measures
+- link:{gci-github-organization}/creedengo-rules-specifications/pull/258[#258] Deprecate rule EC63 for Java because there are already 3 native Sonarqube rules that cover the same use cases
+- link:{gci-github-organization}/creedengo-rules-specifications/pull/259[#259] Deprecate rule EC75 for Java because not applicable since JDK8
+
+== [1.4.2] - 2023-12-05
+
+=== Added
+
+- link:{gci-github-organization}/creedengo-rules-specifications/issues/224[#224] Add Swift rules from ecocode-ios to ecocode-rules-specifications
+
+=== Changed
+
+- Update ecocode-rules-specifications to 0.0.9
+
+=== Deleted
+
+- link:{gci-github-organization}/creedengo-rules-specifications/pull/243[#243] Deprecate rule EC4 for Java because not applicable
+
+== [1.4.1] - 2023-12-04
+
+=== Changed
+
+- link:{gci-github-organization}/creedengo-ios/issues/3[ios#3] Move iOS rules into centralized rules repository
+- link:{gci-github-organization}/creedengo-android/issues/67[android#67] Move Android rules into centralized rules repository
+- link:{gci-github-organization}/creedengo-ios/issues/3[ios#3] Move iOS rules into centralized rules repository
+- link:{gci-github-organization}/creedengo-rules-specifications/issues/103[#103] Upgrade RULES.md: set proposed HTML rule "HTML page must contain a doctype tag" as refused with link to the justification
+- link:{gci-github-organization}/creedengo-rules-specifications/issues/106[#106] Upgrade RULES.md : rule EC67 not relevant neither for Python nor Rust
+- link:{gci-github-organization}/creedengo-rules-specifications/issues/112[#112] Updating EC1 rule to add controls on streams
+- link:{gci-github-organization}/creedengo-rules-specifications/pull/128[#128] Adding EC35 rule for Python and PHP : EC35 rule replaces EC34 with a specific use case ("file not found" sepcific)
+- link:{gci-github-organization}/creedengo-rules-specifications/issues/132[#132] Upgrade RULES.md: set proposed Python rule "Use numpy array instead of standard list" as refused with link to the justification
+- link:{gci-github-organization}/creedengo-rules-specifications/issues/136[#136] Upgrade rule EC53 for Python : no implementation possible for python
+- link:{gci-github-organization}/creedengo-rules-specifications/issues/140[#140] Upgrade rule EC3 for Python : no implementation possible for python
+- link:{gci-github-organization}/creedengo-rules-specifications/issues/185[#185] Add build number to manifest
+- link:{gci-github-organization}/creedengo-rules-specifications/issues/216[#216] Upgrade rule EC2 for Java : Multiple if-else statement improvment
+- link:{gci-github-organization}/creedengo-rules-specifications/pull/225[#225] Upgrade licence system and licence headers of Java files
+- link:{gci-github-organization}/creedengo-rules-specifications/issues/247[#247] Upgrade rule EC2 for Java : float and double types deleted because of non compatibility with rule
+
+== [1.4.0] - 2023-08-08
+
+=== Added
+
+- link:{gci-github-organization}/creedengo-rules-specifications/issues/205[#205] compatibility with SonarQube 10.1
+- link:{gci-github-organization}/creedengo-rules-specifications/pull/210[#210] Publish to Maven Central (module ecocode-rules-specifications)
+
+=== Deleted
+
+- link:{gci-github-organization}/creedengo-rules-specifications/issues/182[#182] Split repository : move Python module to new `ecoCode-python` repository
+- link:{gci-github-organization}/creedengo-rules-specifications/issues/182[#182] Split repository : move Php module to new `ecoCode-php` repository
+
+== [1.3.1] - 2023-07-19
+
+=== Added
+
+- link:{gci-github-organization}/creedengo-rules-specifications/issues/207[#207] Add release tag analyzis on SonarCloud
+
+=== Deleted
+
+- link:{gci-github-organization}/creedengo-rules-specifications/pull/211[#211] Move JavaScript plugin to its dedicated repository
+
+== [1.3.0] - 2023-07-04
+
+=== Added
+
+- link:{gci-github-organization}/creedengo-rules-specifications/issues/108[#108] new Python rule EC66 : Use single quote (') instead of quotation mark (")
+- link:{gci-github-organization}/creedengo-rules-specifications/issues/109[#109] new PHP rule EC3 : Getting the size of the collection in the loop. For further ../../../../RULES.md[RULES.md] file
+- link:{gci-github-organization}/creedengo-rules-specifications/issues/113[#113] new Python rule EC10 : Use unoptimized vector images
+- link:{gci-github-organization}/creedengo-rules-specifications/issues/127[#127] new Python rule EC404 : Usage of generator comprehension instead of list comprehension in for loop declaration
+- link:{gci-github-organization}/creedengo-rules-specifications/pull/190[#190] Add Python rule: Use unoptimized vector images
+- link:{gci-github-organization}/creedengo-rules-specifications/issues/191[#191] Update rule tags for Java, Python, and PHP plugins
+- link:{gci-github-organization}/creedengo-rules-specifications/pull/192[#192] new Python rule EC203 : Detect unoptimized file formats
+- Add JavaScript rules from link:{gci-github-organization}/creedengo-linter/releases/tag/eslint-plugin%2F0.2.0[ecoCode ESLint plugin v0.2.0]
+
+=== Changed
+
+- link:{gci-github-organization}/creedengo-common/issues/19[#19] process changed for development environment installation : easier to initialize locally environment (check link:{gci-github-organization}/creedengo-common/blob/main/doc/INSTALL.md#howto-install-sonarqube-dev-environment[`INSTALL.md`] file)
+- link:{gci-github-organization}/creedengo-rules-specifications/issues/187[#187] upgrade librairies to SonarQube 10.0.0
+- link:{gci-github-organization}/creedengo-rules-specifications/issues/196[#196] updating PHP files to make them following the coding standards (PSR-12)
+- link:{gci-github-organization}/creedengo-rules-specifications/pull/201[#201] Clean-up plugins and dependencies
+- technical : upgrade of maven plugins versions
+
+== [1.2.1] - 2023-04-18
+
+=== Changed
+
+- link:{gci-github-organization}/creedengo-rules-specifications/pull/180[#180] correction of SonarQube review for MarketPlace (sonar plugin)
+
+== [1.2.0] - 2023-04-14
+
+=== Added
+
+- link:{gci-github-organization}/creedengo-rules-specifications/issues/171[#171] Add migration mechanism to support "issue re-keying"
+
+=== Changed
+
+- link:{gci-github-organization}/creedengo-rules-specifications/pull/161[#161] Remove unnecessary junit dependencies in pom.xml
+- link:{gci-github-organization}/creedengo-rules-specifications/issues/166[#166] Correction of wrong message of rule EC63
+- link:{gci-github-organization}/creedengo-rules-specifications/issues/167[#167] Use same kind for rules across different languages
+- link:{gci-github-organization}/creedengo-rules-specifications/issues/173[#173] Update issue description of rule EC34 (try-catch)
+
+== [1.1.0] - 2023-04-03
+
+=== Changed
+
+- link:{gci-github-organization}/creedengo-rules-specifications/issues/63[#63] Update plugins to be compliant for SonarQube MarketPlace integration ( PR link:{gci-github-organization}/creedengo-rules-specifications/pull/79[#79] )
+- link:{gci-github-organization}/creedengo-rules-specifications/pull/88[#88] upgrade rules matrix with new ids + refactoring rules documentation (`rules.adoc`)
+
+=== Deleted
+
+- link:{gci-github-organization}/creedengo-rules-specifications/issues/85[#85] Cleaning some useless classes on PHP plugin
+
+== [1.0.0] - 2023-03-24
+
+=== Added
+
+- link:{gci-github-organization}/creedengo-rules-specifications/pull/44[#44] Update the PHP description rules
+- link:{gci-github-organization}/creedengo-rules-specifications/pull/67[#67] Add JavaScript plugin
+- add `ecocode` tag on all rules on Java, PHP, Python and javascript plugins
+
+=== Changed
+
+- link:{gci-github-organization}/creedengo-rules-specifications/issues/40[#40] Refactoring of package names (`cnumr` to `greencodeinitiative`)
+- link:{gci-github-organization}/creedengo-rules-specifications/issues/55[#55] rename `eco-conception` tag of rules to `eco-design`
+- link:{gci-github-organization}/creedengo-rules-specifications/issues/58[#58] check and upgrade compatibility to SonarQube 9.9
+- move common init scripts to `ecoCode-common` repository
+- modifying documentation and move `CONTRIBUTING.md`, `CODE_STYLE.md` and `INSTALL.md` to common doc in `ecoCode-common` repository
+- security / performance optimizations : correction of `sonarcloud.io` security hotspots (java / php, python) and move Pattern compilation to static attribute
+- link:{gci-github-organization}/creedengo-rules-specifications/issues/64[#64] Python: ecoCode plugin with SonarQube, no code-smell detection
+- link:{gci-github-organization}/creedengo-rules-specifications/issues/65[#65] Create a test project to check new plugin rule in real environment
+- link:{gci-github-organization}/creedengo-rules-specifications/issues/71[#71] After an PHP analysis, no ecocode code smells appears in my Sonar project
+- link:{gci-github-organization}/creedengo-rules-specifications/issues/76[#76] correction of SonarQube plugins homepage link broken
+- documentation upgrade
+
+=== Deleted
+
+- cleaning old files (move them to `ecoCode-archive` repository)
+
+== [0.2.2] - 2023-01-19
+
+=== Added
+
+- link:{gci-github-organization}/creedengo-rules-specifications/pull/23[#23] Add images to the description files.
+- link:{gci-github-organization}/creedengo-rules-specifications/pull/46[#46] Add CONTRIBUTING.MD, CODE_OF_CONDUCT.md and CODE_STYLE.md
+
+=== Changed
+
+- link:{gci-github-organization}/creedengo-rules-specifications/pull/27[#27] Fix [WARNING] Maven-shade-plugin overlapping classes and upgrade SonarRuntime.
+- link:{gci-github-organization}/creedengo-rules-specifications/issues/33[#33] Update plugin description in code
+- link:{gci-github-organization}/creedengo-rules-specifications/issues/42[#42] Fix Crash SonarQube analysis because of some ClassCast Exceptions
+- link:{gci-github-organization}/creedengo-rules-specifications/pull/48[#48] correction SONAR issue info - delete public keyword on tests
+- Improve "build" GitHub actions to execute checks on branches from fork repositories
+
+== [0.2.1] - 2022-12-30
+
+=== Changed
+
+- link:{gci-github-organization}/creedengo-rules-specifications/issues/22[#22] Error when running sonar scan with ecocode
+
+== [0.2.0] - 2022-12-28
+
+=== Added
+
+- link:{gci-github-organization}/creedengo-rules-specifications/pull/15[#15] Upgrade some versions + sonar version from 9.3 to 9.8
+- link:{gci-github-organization}/creedengo-rules-specifications/issues/17[#17] improve releasing system
+- link:{gci-github-organization}/creedengo-rules-specifications/issues/25[#25] Release management vs maven packaging (not the same
+  version)
+
+=== Changed
+
+- documentation upgrade (internal)
+
+== [0.1.1] - 2022-12-20
+
+=== Added
+
+- https://github.com/cnumr/creedengo-rules-specifications/issues/161[#161] adding tool to update tags of native rules with our custom tags
+
+=== Changed
+
+- documentation upgrade (internal)
+- optimization/refactoring on pom.xml dependencies (internal)
+
+== [0.1.0] - 2022-12-14
+
+=== Added
+
+- First official release of ecocode plugins : java plugin, php plugin and python plugin
+
+== Comparison List
+
+link:{gci-github-organization}/creedengo-rules-specifications/compare/2.2.1...HEAD[unreleased]
+link:{gci-github-organization}/creedengo-rules-specifications/compare/2.2.0...2.2.1[2.2.1]
+link:{gci-github-organization}/creedengo-rules-specifications/compare/2.1.0...2.2.0[2.2.0]
+link:{gci-github-organization}/creedengo-rules-specifications/compare/2.0.0...2.1.0[2.1.0]
+link:{gci-github-organization}/creedengo-rules-specifications/compare/1.6.5...2.0.0[2.0.0]
+link:{gci-github-organization}/creedengo-rules-specifications/compare/1.6.4...1.6.5[1.6.5]
+link:{gci-github-organization}/creedengo-rules-specifications/compare/1.6.3...1.6.4[1.6.4]
+link:{gci-github-organization}/creedengo-rules-specifications/compare/1.6.2...1.6.3[1.6.3]
+link:{gci-github-organization}/creedengo-rules-specifications/compare/1.6.1...1.6.2[1.6.2]
+link:{gci-github-organization}/creedengo-rules-specifications/compare/1.6.0...1.6.1[1.6.1]
+link:{gci-github-organization}/creedengo-rules-specifications/compare/1.5.4...1.6.0[1.6.0]
+link:{gci-github-organization}/creedengo-rules-specifications/compare/1.5.3...1.5.4[1.5.4]
+link:{gci-github-organization}/creedengo-rules-specifications/compare/1.5.2...1.5.3[1.5.3]
+link:{gci-github-organization}/creedengo-rules-specifications/compare/1.5.1...1.5.2[1.5.2]
+link:{gci-github-organization}/creedengo-rules-specifications/compare/1.5.0...1.5.1[1.5.1]
+link:{gci-github-organization}/creedengo-rules-specifications/compare/1.4.7...1.5.0[1.5.0]
+link:{gci-github-organization}/creedengo-rules-specifications/compare/1.4.6...1.4.7[1.4.7]
+link:{gci-github-organization}/creedengo-rules-specifications/compare/1.4.5...1.4.6[1.4.6]
+link:{gci-github-organization}/creedengo-rules-specifications/compare/1.4.4...1.4.5[1.4.5]
+link:{gci-github-organization}/creedengo-rules-specifications/compare/1.4.3...1.4.4[1.4.4]
+link:{gci-github-organization}/creedengo-rules-specifications/compare/1.4.2...1.4.3[1.4.3]
+link:{gci-github-organization}/creedengo-rules-specifications/compare/1.4.1...1.4.2[1.4.2]
+link:{gci-github-organization}/creedengo-rules-specifications/compare/1.4.0...1.4.1[1.4.1]
+link:{gci-github-organization}/creedengo-rules-specifications/compare/1.3.1...1.4.0[1.4.0]
+link:{gci-github-organization}/creedengo-rules-specifications/compare/1.3.0...1.3.1[1.3.1]
+link:{gci-github-organization}/creedengo-rules-specifications/compare/1.2.1...1.3.0[1.3.0]
+link:{gci-github-organization}/creedengo-rules-specifications/compare/1.2.0...1.2.1[1.2.1]
+link:{gci-github-organization}/creedengo-rules-specifications/compare/1.1.0...1.2.0[1.2.0]
+link:{gci-github-organization}/creedengo-rules-specifications/compare/1.0.0...1.1.0[1.1.0]
+link:{gci-github-organization}/creedengo-rules-specifications/compare/0.2.2...1.0.0[1.0.0]
+link:{gci-github-organization}/creedengo-rules-specifications/compare/0.2.1...0.2.2[0.2.2]
+link:{gci-github-organization}/creedengo-rules-specifications/compare/0.2.0...0.2.1[0.2.1]
+link:{gci-github-organization}/creedengo-rules-specifications/compare/0.1.1...0.2.0[0.2.0]
+link:{gci-github-organization}/creedengo-rules-specifications/compare/0.1.0...0.1.1[0.1.1]
+link:{gci-github-organization}/creedengo-rules-specifications/releases/tag/0.1.0[0.1.0]
